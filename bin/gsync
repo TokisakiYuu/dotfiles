@@ -1,0 +1,7 @@
+#!/bin/bash
+
+git push
+gout test_branch
+git merge dev_branch
+git push
+gout dev_branch
