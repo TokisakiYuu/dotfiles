@@ -1,0 +1,5 @@
+#!/bin/bash
+
+MYDIR=`dirname $0`
+
+node $MYDIR/../scripts/nodejs/create-pm2-node.js "$@"
